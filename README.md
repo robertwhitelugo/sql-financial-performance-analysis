@@ -11,7 +11,7 @@ The objective was to transform raw transactional data into meaningful business m
 ## 📸 Dashboard Preview
 
 <p align="center">
-  <img src="images/dashboard-preview.png" alt="Financial Performance Dashboard" width="1000">
+  <img src="images/dashboard-preview.png" alt="Financial Performance Dashboard" width="900">
 </p>
 
 ---
@@ -72,6 +72,7 @@ images/
 │── dashboard-preview.png
 
 README.md
+REPORT.md
 ```
 
 ---
@@ -82,5 +83,4 @@ README.md
 
 Data Analyst | SQL | Python | Power BI | Excel
 
-LinkedIn:
-https://www.linkedin.com/in/roberto-blanco-lugo-/
+**LinkedIn:** https://www.linkedin.com/in/roberto-blanco-lugo-/
