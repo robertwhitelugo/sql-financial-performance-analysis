@@ -1,4 +1,4 @@
-# SQL Financial Performance Analysis
+# Financial Performance Analysis with SQL
 
 ## 📌 Project Overview
 
@@ -8,13 +8,21 @@ The objective was to transform raw transactional data into meaningful business m
 
 ---
 
+## 📸 Dashboard Preview
+
+<p align="center">
+  <img src="images/dashboard-preview.png" alt="Financial Performance Dashboard" width="1000">
+</p>
+
+---
+
 ## 🎯 Objectives
 
-- Analyze financial performance.
-- Calculate business KPIs.
+- Analyze financial performance across different countries.
+- Calculate key business KPIs.
 - Measure profitability.
-- Calculate ROI.
-- Practice advanced SQL querying.
+- Calculate Return on Investment (ROI).
+- Practice advanced SQL querying techniques.
 
 ---
 
@@ -22,7 +30,7 @@ The objective was to transform raw transactional data into meaningful business m
 
 - SQL
 - PostgreSQL
-- CTEs
+- Common Table Expressions (CTEs)
 - JOINs
 - Aggregate Functions
 - CASE WHEN
@@ -34,7 +42,8 @@ The objective was to transform raw transactional data into meaningful business m
 
 - Revenue analysis
 - Expense analysis
-- Profit Margin
+- Gross Profit calculation
+- Profit Margin calculation
 - ROI calculation
 - Financial KPI reporting
 
@@ -42,24 +51,28 @@ The objective was to transform raw transactional data into meaningful business m
 
 ## 📈 Results
 
-The project demonstrates how SQL can transform transactional data into business insights by calculating financial KPIs that support strategic decision-making.
+The analysis identified the most profitable markets by comparing revenue, operational costs, marketing investment, profit margin, and ROI.
+
+Key findings include:
+
+- United States generated the highest revenue and ROI.
+- Canada achieved the highest profit margin.
+- Australia maintained strong profitability with moderate ROI.
+- The project demonstrates how SQL can transform transactional data into actionable business insights for strategic decision-making.
 
 ---
 
 ## 📂 Repository Structure
 
-```
-sql/
+```text
+dashboard/
+│── financial_performance_dashboard.xlsx
+
 images/
-data/
+│── dashboard-preview.png
+
 README.md
 ```
-
----
-
-## 📸 Project Preview
-
-Project screenshots are available in the **images** folder.
 
 ---
 
