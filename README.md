@@ -104,16 +104,89 @@ These comparisons helped identify markets with different financial strengths and
 
 ---
 
-## 📈 Results
 
-The analysis identified the most profitable markets by comparing revenue, operational costs, marketing investment, profit margin, and ROI.
+## 📈 Key Findings & Business Insights
 
-Key findings include:
+### 1. Financial Performance by Country
 
-- United States generated the highest revenue and ROI.
-- Canada achieved the highest profit margin.
-- Australia maintained strong profitability with moderate ROI.
-- The project demonstrates how SQL can transform transactional data into actionable business insights for strategic decision-making.
+The analysis compared financial performance across six Adventure Works markets using SQL-based calculations.
+
+| Country | Revenue (USD) | Gross Profit Margin | Gross Profit / Campaign Cost |
+|---|---:|---:|---:|
+| United States | $3,353,939.92 | 43.37% | 75.75% |
+| Australia | $2,532,003.49 | 41.75% | 49.16% |
+| United Kingdom | $1,189,636.78 | 42.71% | 22.05% |
+| Germany | $1,071,460.42 | 42.95% | 20.31% |
+| France | $924,316.93 | 42.90% | 17.96% |
+| Canada | $710,205.18 | 44.76% | 17.43% |
+
+### 2. United States: Highest Revenue and Gross Profit
+
+The United States generated $3.35 million in revenue and approximately $1.45 million in gross profit.
+
+It also recorded the highest gross-profit-to-campaign-cost ratio at 75.75%.
+
+**Business Insight:**
+
+The United States was the strongest market in terms of sales volume, gross profit, and the reported campaign investment efficiency metric.
+
+This market warrants further evaluation for potential growth opportunities.
+
+### 3. Canada: Highest Gross Profit Margin
+
+Canada achieved the highest gross profit margin at 44.76%, despite generating the lowest revenue among the six markets.
+
+**Business Insight:**
+
+Higher sales volume does not necessarily translate into a higher profit margin.
+
+Canada demonstrated relatively strong gross profitability per dollar of revenue, although its overall contribution was smaller.
+
+### 4. Australia: Strong Sales with Higher Campaign Investment
+
+Australia ranked second in revenue, generating approximately $2.53 million.
+
+Its gross profit margin was 41.75%, while its gross-profit-to-campaign-cost ratio was 49.16%.
+
+**Business Insight:**
+
+Australia generated substantial revenue, but its campaign investment metric was lower than that of the United States.
+
+Further investigation could help assess the effectiveness of its marketing expenditure.
+
+### 5. Markets Requiring Further Investigation
+
+France and Canada recorded the lowest gross-profit-to-campaign-cost ratios:
+
+- France: 17.96%
+- Canada: 17.43%
+
+**Business Insight:**
+
+These markets may benefit from a closer review of campaign costs, revenue contribution, and marketing effectiveness.
+
+The ratios alone do not establish whether specific campaigns were profitable or caused additional sales.
+
+### 6. Analytical Value
+
+By combining sales, product costs, territories, and campaign information, the project demonstrated how SQL can support financial performance comparisons across international markets.
+
+The resulting dashboard provided a consolidated view of revenue, gross profit, gross profit margin, and campaign investment ratios.
+
+### Metric Interpretation
+
+Gross Profit = Revenue - Product Costs
+
+Gross Profit Margin = Gross Profit / Revenue
+
+The dashboard's original ROI-labelled metric corresponds to:
+
+Gross Profit / Campaign Cost
+
+This ratio is reported as a descriptive comparison of gross profit relative to campaign spending. It should not be interpreted as a conventional net ROI calculation or as evidence of marketing-attributed incremental returns.
+
+The analysis describes observed financial performance; it does not measure the impact of implementing business recommendations.
+
 
 ---
 
