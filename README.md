@@ -8,6 +8,24 @@ The objective was to transform raw transactional data into meaningful business m
 
 ---
 
+## 💼 Business Problem
+
+A company operating across multiple international markets needed to evaluate its financial performance and understand how revenue, operational expenses, and marketing investments affected profitability.
+
+Analyzing revenue alone was insufficient to determine which markets performed best. A country with higher sales could also have higher costs, resulting in a lower profit margin or a less favorable return on investment.
+
+This project addressed four business questions:
+
+- Which countries generated the highest revenue?
+- How did operational expenses and marketing investments affect profitability?
+- Which markets achieved the strongest profit margins?
+- How did Return on Investment (ROI) differ across countries?
+
+To answer these questions, SQL was used to calculate and compare financial performance indicators across markets.
+
+The goal was to provide a clearer view of business performance and support data-driven decisions about cost management, profitability, and investment priorities.
+
+
 ## 📸 Dashboard Preview
 
 <p align="center">
