@@ -4,7 +4,7 @@
 
 This project analyzes a company's financial performance using SQL.
 
-The objective was to transform raw transactional data into meaningful business metrics such as revenue, expenses, profit margin, and Return on Investment (ROI), supporting business decision-making through data analysis.
+The objective was to transform raw transactional data into meaningful business metrics such as revenue, expenses, profit margin, and gross-profit-to-campaign-cost ratio, supporting business decision-making through data analysis.
 
 ---
 
@@ -19,7 +19,7 @@ This project addressed four business questions:
 - Which countries generated the highest revenue?
 - How did operational expenses and marketing investments affect profitability?
 - Which markets achieved the strongest profit margins?
-- How did Return on Investment (ROI) differ across countries?
+- How did gross profit relative to campaign spending differ across countries?
 
 To answer these questions, SQL was used to calculate and compare financial performance indicators across markets.
 
@@ -39,7 +39,7 @@ The goal was to provide a clearer view of business performance and support data-
 - Analyze financial performance across different countries.
 - Calculate key business KPIs.
 - Measure profitability.
-- Calculate Return on Investment (ROI).
+- Compare gross profit relative to campaign expenditure.
 - Practice advanced SQL querying techniques.
 
 ---
@@ -69,7 +69,7 @@ The analysis considered five key financial indicators:
 - **Expenses:** Costs associated with business operations.
 - **Gross Profit:** Revenue minus the costs included in the financial calculation.
 - **Profit Margin:** Profit expressed as a percentage of revenue.
-- **Return on Investment (ROI):** A measure of financial returns relative to the investment considered.
+- **Gross Profit / Campaign Cost:** A comparison of gross profit with campaign expenditure.
 
 ### 2. SQL Techniques
 
@@ -91,13 +91,13 @@ Financial indicators were compared across markets to investigate:
 - Differences in revenue generation.
 - The relationship between expenses and profitability.
 - Variations in profit margin.
-- Differences in ROI between countries.
+- Differences in gross-profit-to-campaign-cost ratio between countries.
 
 ### 4. Business Interpretation
 
 The analysis went beyond comparing sales totals.
 
-By examining revenue alongside expenses, profit margin, and ROI, the project provided a broader assessment of financial performance.
+By examining revenue alongside expenses, profit margin, and gross-profit-to-campaign-cost ratio, the project provided a broader assessment of financial performance.
 
 These comparisons helped identify markets with different financial strengths and areas requiring further investigation.
 
