@@ -187,8 +187,56 @@ This ratio is reported as a descriptive comparison of gross profit relative to c
 
 The analysis describes observed financial performance; it does not measure the impact of implementing business recommendations.
 
+---
+
+## 💼 Business Recommendations
+
+The following recommendations are based on the financial performance analysis of six international markets.
+
+### 1. Evaluate Growth Opportunities in the United States
+
+**Finding:** The United States generated the highest revenue ($3,353,939.92), with a gross profit margin of 43.37% and the highest gross-profit-to-campaign-cost ratio (75.75%).
+
+**Recommendation:** Investigate opportunities to expand successful commercial activities in the United States while monitoring product costs and campaign expenditure.
+
+**Expected Value:** Support investment decisions using evidence of strong sales volume and gross profitability.
+
+### 2. Investigate Canada's High Profit Margin
+
+**Finding:** Canada achieved the highest gross profit margin (44.76%) despite generating the lowest revenue ($710,205.18).
+
+**Recommendation:** Analyze Canada's product mix, pricing structure, and cost characteristics to understand the factors associated with its relatively high margin.
+
+**Expected Value:** Identify potentially transferable profitability practices and assess opportunities for sustainable sales growth.
+
+### 3. Review Marketing Expenditure in Australia
+
+**Finding:** Australia generated $2,532,003.49 in revenue, with a 41.75% gross profit margin and a 49.16% gross-profit-to-campaign-cost ratio.
+
+**Recommendation:** Review campaign expenditure by channel, product, and customer segment, where sufficiently detailed data is available.
+
+**Expected Value:** Identify opportunities to refine marketing budget allocation and evaluate campaign effectiveness more precisely.
+
+### 4. Examine Campaign Investment in France and Canada
+
+**Finding:** France and Canada recorded the lowest gross-profit-to-campaign-cost ratios, at 17.96% and 17.43%, respectively.
+
+**Recommendation:** Conduct a more detailed assessment of campaign costs, attributable sales, and contribution margins before making decisions about increasing or reducing advertising budgets.
+
+**Expected Value:** Improve the quality of investment decisions and reduce the risk of relying on revenue or gross profit alone.
+
+### 5. Establish a Financial Performance Monitoring Framework
+
+**Finding:** The SQL analysis enabled comparisons of revenue, product costs, gross profit, gross profit margin, and campaign spending across six countries.
+
+**Recommendation:** Monitor these indicators regularly through standardized SQL queries and a financial dashboard.
+
+**Expected Value:** Help business stakeholders detect changes in profitability, investigate cost pressures, and compare financial performance consistently across markets.
 
 ---
+
+**Implementation Note:** These recommendations are proposed actions derived from historical financial analysis. Their implementation and resulting business impact were not evaluated in this project.
+
 
 ## 📂 Repository Structure
 
