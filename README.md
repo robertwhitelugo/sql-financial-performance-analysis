@@ -238,17 +238,43 @@ The following recommendations are based on the financial performance analysis of
 **Implementation Note:** These recommendations are proposed actions derived from historical financial analysis. Their implementation and resulting business impact were not evaluated in this project.
 
 
-## 📂 Repository Structure
+
+## 💻 SQL Code & Project Files
+
+The repository includes SQL queries from the original TripleTen financial performance project, along with reconstructed data quality checks based on the exercise instructions.
+
+### SQL Files
+
+| File | Description |
+|---|---|
+| [01_sales_data_preparation.sql](sql/01_sales_data_preparation.sql) | Joins sales, products, categories, and territories; handles null values; and calculates revenue and product costs. |
+| [02_financial_kpis.sql](sql/02_financial_kpis.sql) | Calculates financial KPIs, including revenue, costs, gross profit, gross profit margin, and the gross-profit-to-campaign-cost ratio. |
+| [03_data_quality_checks.sql](sql/03_data_quality_checks.sql) | Checks missing sales keys, invalid order quantities, and negative product prices. |
+
+### Technical Notes
+
+- The financial KPI query uses intermediate tables created during earlier project stages.
+- The data quality checks include queries reconstructed from the original exercise instructions.
+- The original `roi_pct` column represents gross profit divided by campaign cost, rather than conventional net ROI.
+- Query outputs and data quality validation results are not included in the repository.
+
+### Repository Structure
 
 ```text
+sql/
+├── 01_sales_data_preparation.sql
+├── 02_financial_kpis.sql
+└── 03_data_quality_checks.sql
+
 dashboard/
-│── financial_performance_dashboard.xlsx
+└── financial_performance_dashboard.xlsx
 
 images/
-│── dashboard-preview.png
+└── dashboard-preview.png
 
 README.md
 ```
+
 
 ---
 
