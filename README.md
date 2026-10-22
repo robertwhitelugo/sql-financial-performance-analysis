@@ -248,7 +248,6 @@ images/
 │── dashboard-preview.png
 
 README.md
-REPORT.md
 ```
 
 ---
